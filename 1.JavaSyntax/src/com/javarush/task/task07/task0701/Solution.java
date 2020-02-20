@@ -11,7 +11,9 @@ import java.lang.reflect.Array;
 */
 
 public class Solution {
+
     public static void main(String[] args) throws Exception {
+
         int[] array = initializeArray();
         int max = max(array);
         System.out.println(max);
